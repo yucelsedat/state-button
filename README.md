@@ -21,7 +21,7 @@
     
     export default ButtonApp;
 ```
-
+<hr/>
 Daha sonra bu kodu App.js e ekliyoruz 
 
 
