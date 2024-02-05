@@ -4,7 +4,7 @@ function ButtonApp() {
     const [text, setText] = useState('');
   
     const handleClick = () => {
-      setText('Merhaba Dünya!');
+      setText('butona tıklandı');
     };
   
     return (
