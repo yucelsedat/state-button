@@ -1,6 +1,7 @@
 # useState ile basit bir button uygulaması
 
 
+```jsx
     import React, { useState } from 'react';
 
     function ButtonApp() {
@@ -19,11 +20,12 @@
     }
     
     export default ButtonApp;
+```
 
 Daha sonra bu kodu App.js e ekliyoruz 
 
-```
- `
+
+```jsx
     import './App.css';
     import ButtonApp from './ButtonApp';
 
@@ -36,26 +38,5 @@ Daha sonra bu kodu App.js e ekliyoruz
         ); 
     }
 
-    export default App`;
-```
-
-```jsx
-const Button = styled.button`
-  color: grey;
-`;
-```
-
-
-```jsx
-const Button = styled.button({
-  color: 'grey',
-});
-```
-
-Equivalent to:
-
-```jsx
-const Button = styled.button`
-  color: grey;
-`;
+    export default App;
 ```
