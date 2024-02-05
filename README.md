@@ -22,6 +22,7 @@
 
 Daha sonra bu kodu App.js e ekliyoruz 
 
+```
     import './App.css';
     import ButtonApp from './ButtonApp';
 
@@ -35,3 +36,4 @@ Daha sonra bu kodu App.js e ekliyoruz
     }
 
     export default App;
+```
