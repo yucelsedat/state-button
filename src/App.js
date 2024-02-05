@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <ButtonApp/> 
     </div> 
-  );
+  ); 
 }
 
 export default App;
