@@ -1,9 +1,11 @@
 import './App.css';
+import ButtonApp from './ButtonApp';
 
+ 
 function App() {
   return (
     <div className="App">
-      
+      <ButtonApp/> 
     </div>
   );
 }
